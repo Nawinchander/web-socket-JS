@@ -1,0 +1,2 @@
+One user can send message to another user (not broadcast)
+Uses userId mapping on server
