@@ -1,0 +1,12 @@
+This one shows a Live Notification System
+
+Server sends updates to clients automatically every few seconds
+Client doesn’t send messages (server pushes data)
+
+This is how:
+
+stock price updates work
+
+live score apps work
+
+delivery tracking works
