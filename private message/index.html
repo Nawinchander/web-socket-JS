@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Private Chat</h3>
+
+<input id="myId" placeholder="Your ID"/>
+<button onclick="connect()">Connect</button>
+
+<br><br>
+
+<input id="toId" placeholder="Send To"/>
+<input id="msg" placeholder="Message"/>
+<button onclick="sendMsg()">Send</button>
+
+<ul id="chat"></ul>
+
+<script>
+let ws;
+let myId;
+
+function connect(){
+    myId = document.getElementById("myId").value;
+
+    ws = new WebSocket("ws://localhost:5000");
+
+    ws.onopen = () => {
+        ws.send(JSON.stringify({
+            type: "register",
+            userId: myId
+        }));
+    };
+
+    ws.onmessage = (event) => {
+        const data = JSON.parse(event.data);
+
+        const li = document.createElement("li");
+        li.textContent = data.from + ": " + data.message;
+        document.getElementById("chat").appendChild(li);
+    };
+}
+
+function sendMsg(){
+    ws.send(JSON.stringify({
+        type: "private",
+        from: myId,
+        to: document.getElementById("toId").value,
+        message: document.getElementById("msg").value
+    }));
+}
+</script>
+
+</body>
+</html>
