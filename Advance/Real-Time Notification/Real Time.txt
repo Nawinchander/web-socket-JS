@@ -7,3 +7,12 @@ Notification service
 Queue (Kafka/SQS)
 WebSocket gateway
 
+
+
+FAANG-level upgrades
+Use push fallback (FCM/APNs) when offline
+Store notifications in DB
+Use fan-out services
+Handle millions of concurrent connections
+
+
