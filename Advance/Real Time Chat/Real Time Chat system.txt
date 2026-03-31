@@ -1,0 +1,11 @@
+Real-Time Chat System (Slack/WhatsApp Level)
+🔹 Core Concept
+
+Bi-directional communication between client & server using WebSockets.
+
+🔹 Features
+Rooms (channels)
+Typing indicators
+Online/offline status
+Message delivery acknowledgments
+
