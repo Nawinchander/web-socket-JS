@@ -1,0 +1,10 @@
+Live Stock Price Dashboard (High Throughput System)
+🔹 Concept
+
+Push thousands of updates/sec to clients.
+
+🔹 Key Challenges
+Throttling updates
+Backpressure handling
+Efficient broadcasting
+
