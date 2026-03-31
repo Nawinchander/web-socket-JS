@@ -8,3 +8,10 @@ Latency
 State consistency
 Conflict resolution
 
+
+FAANG-level upgrades
+Use tick-based updates (60 FPS loop)
+Apply client-side prediction
+Use event sourcing for replay
+Partition players by region (sharding)
+
