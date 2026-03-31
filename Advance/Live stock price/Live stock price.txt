@@ -8,3 +8,10 @@ Throttling updates
 Backpressure handling
 Efficient broadcasting
 
+FAANG-level upgrades
+Use binary frames instead of JSON
+Apply delta updates (only send changes)
+Use load balancer + sticky sessions
+Use WebSocket gateway layer
+
+
