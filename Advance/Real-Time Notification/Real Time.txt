@@ -1,0 +1,9 @@
+Concept
+
+Push notifications instantly to users.
+
+🔹 Architecture
+Notification service
+Queue (Kafka/SQS)
+WebSocket gateway
+
