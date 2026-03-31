@@ -1,0 +1,10 @@
+Multiplayer Game (Real-Time Sync Engine)
+🔹 Concept
+
+All players share state in real time.
+
+🔹 Challenges
+Latency
+State consistency
+Conflict resolution
+
