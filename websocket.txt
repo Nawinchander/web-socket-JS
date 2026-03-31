@@ -24,3 +24,12 @@ Tradeoffs (WebSocket vs HTTP)
 Scaling to millions of users
 Fault tolerance
 Data consistency strategies
+
+If you want next level 🔥
+I can give you:
+
+System design diagram (FAANG style)
+Redis + WebSocket scaling implementation
+Production-grade folder structure
+Interview-ready explanation script
+
