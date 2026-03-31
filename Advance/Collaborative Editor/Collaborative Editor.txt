@@ -1,0 +1,10 @@
+Collaborative Editor (Google Docs Level)
+🔹 Concept
+
+Multiple users editing same document in real-time.
+
+🔹 Core Idea
+Send operations instead of full document
+Sync via OT (Operational Transform) or CRDT
+
+
