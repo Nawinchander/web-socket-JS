@@ -1,0 +1,26 @@
+When to use WebSockets?
+Real-time updates needed
+Low latency required
+Bi-directional communication
+🔹 Scaling Strategies
+Horizontal scaling with sticky sessions
+Use Redis Pub/Sub or Kafka
+WebSocket gateway layer
+🔹 Common Pitfalls
+Memory leaks (not cleaning connections)
+No reconnection logic
+Sending too much data
+No rate limiting
+🔹 Alternatives
+SSE (Server-Sent Events)
+Long polling
+
+
+🏆 Pro Insight (What Makes This FAANG Level)
+
+In interviews, they don’t care about just code — they expect:
+
+Tradeoffs (WebSocket vs HTTP)
+Scaling to millions of users
+Fault tolerance
+Data consistency strategies
