@@ -7,4 +7,10 @@ Multiple users editing same document in real-time.
 Send operations instead of full document
 Sync via OT (Operational Transform) or CRDT
 
+FAANG-level upgrades
+Use CRDT (Conflict-free Replicated Data Types)
+Maintain operation logs
+Version control + rollback
+Handle offline edits
+
 
