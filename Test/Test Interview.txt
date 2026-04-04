@@ -8,11 +8,39 @@ Client → Load Balancer → WebSocket Servers
                      Backend Services
 
 
-
 Key Concepts:
 Sticky sessions (same server)
 Horizontal scaling
 Heartbeats (ping/pong)
 Backpressure handling
+
+How do you scale WebSockets to millions?
+
+👉 Answer:
+Use sharding
+Load balancer + sticky sessions
+Use Redis Pub/Sub for cross-node communication
+
+What happens if a server dies?
+
+👉 Answer:
+Clients reconnect
+Use state replication
+Replay missed messages
+
+
+Q3: How do you test real-time guarantees?
+
+👉 Answer:
+Measure:
+latency (p99)
+message loss
+ordering
+
+Pro-Level Tips
+Mention backpressure control
+Talk about binary vs text frames
+Discuss WebSocket vs SSE trade-offs
+Bring up observability (logs, metrics, tracing)
 
 
