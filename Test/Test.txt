@@ -28,4 +28,15 @@ Rate limiting
 DDoS resistance
 
 
+Interview Insight (Important)
 
+In FAANG interviews, you’re expected to:
+
+Talk about horizontal scaling (WebSocket + load balancer)
+Mention sticky sessions or consistent hashing
+Discuss stateful vs stateless handling
+Include message brokers (Kafka, Redis Pub/Sub)
+
+FAANG-Level WebSocket Testing Examples (JS)
+
+We’ll use Node.js with ws and simulate real scenarios.
