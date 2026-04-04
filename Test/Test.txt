@@ -1,20 +1,31 @@
 Testing WebSocket systems at a FAANG level isn’t just about “does it connect?”—it’s about reliability, scalability, fault tolerance, and real-time guarantees under production stress.
 
 Types of WebSocket Testing (FAANG-Level Thinking)
+
 1. Functional Testing
 Connection establishment (handshake)
 Message send/receive correctness
 Protocol compliance (RFC 6455)
+
 2. Load & Stress Testing
 Thousands/millions of concurrent connections
 Message throughput (messages/sec)
 Latency under load
+
 3. Reliability Testing
 Reconnection logic
 Message delivery guarantees
 Handling dropped connections
+
 4. Fault Tolerance Testing
 Server crash simulation
 Network interruptions
 Partial failures in distributed systems
+
+5. Security Testing
+Authentication (JWT, tokens)
+Rate limiting
+DDoS resistance
+
+
 
