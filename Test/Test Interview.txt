@@ -1,0 +1,18 @@
+System Design Layer (This is what gets you hired)
+Architecture they expect you to mention:
+
+Client → Load Balancer → WebSocket Servers
+                           ↓
+                   Redis Pub/Sub / Kafka
+                           ↓
+                     Backend Services
+
+
+
+Key Concepts:
+Sticky sessions (same server)
+Horizontal scaling
+Heartbeats (ping/pong)
+Backpressure handling
+
+
