@@ -44,3 +44,6 @@ Discuss WebSocket vs SSE trade-offs
 Bring up observability (logs, metrics, tracing)
 
 
+“WebSocket testing involves validating connection reliability, message correctness, and system scalability under millions of concurrent users, while ensuring fault tolerance using reconnection strategies and distributed messaging systems like Redis or Kafka.”
+
+
